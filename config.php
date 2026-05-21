@@ -1,11 +1,11 @@
 <?php
 // ─── Đổi thông tin này theo cPanel của 42web.io ───
-define('DB_HOST', 'localhost');
-define('DB_USER', 'your_db_user');      // username DB trong cPanel
-define('DB_PASS', 'your_db_password');  // password DB
-define('DB_NAME', 'your_db_name');      // tên DB
+define('DB_HOST', 'sql206.infinityfree.com');
+define('DB_USER', 'if0_41983696');
+define('DB_PASS', 'mật_khẩu_database');
+define('DB_NAME', 'if0_41983696_danhcau');
 
-define('SITE_NAME', 'danhcauthoi');
+define('SITE_NAME', 'danhcauthoi.42web.io');
 
 // Kết nối
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
